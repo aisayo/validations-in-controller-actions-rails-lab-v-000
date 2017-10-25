@@ -16,7 +16,7 @@ class PostsController < ApplicationController
     end
   end
 
-private
+  private
 
   def post_params
     params.permit(:category, :content, :title)
